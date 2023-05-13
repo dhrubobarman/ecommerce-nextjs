@@ -38,7 +38,6 @@ const CustomToast = (props: toastInterface) => {
           <Alert
             onClose={close}
             variant="filled"
-            icon={false}
             severity={type}
             sx={{ color: type === "success" ? "white" : "" }}
           >

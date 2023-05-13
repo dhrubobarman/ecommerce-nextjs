@@ -13,14 +13,6 @@ export interface errorInterface extends ToastDataType {
   data: any;
 }
 
-// export type Ok<T> = { _tag: "Ok"; ok: T };
-// export type Err<E> = { _tag: "Err"; err: E };
-// export type Result<T, E> = Ok<T> | Err<E>;
-// export const Result = Object.freeze({
-//   Ok: <T, E>(ok: T): Result<T, E> => ({ _tag: "Ok", ok }),
-//   Err: <T, E>(err: E): Result<T, E> => ({ _tag: "Err", err }),
-// });
-
 export const axiosInstance = (
   history: any = null,
   passedHeaders: any = null
